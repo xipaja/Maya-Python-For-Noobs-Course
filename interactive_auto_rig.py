@@ -4,6 +4,7 @@ import maya.mel as mel
 import sys
 
 def createProxies():
+    # Create proxies for the rig to pull in later
     amount = 5
     
     for i in range(amount):
